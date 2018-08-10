@@ -1,7 +1,7 @@
 # kickr
 This project is used in the [Build an augmented reality app on Root insurance](https://make.offerzen.com/course/root-insurance-augmented-reality) course, at [Make by OfferZen](https://make.offerzen.com/).
 
-You can see a walkthrough [here](). The important topics are listed bellow:
+You can see a [walkthrough here](https://drive.google.com/a/fireid.com/file/d/1J9nmuZbas7Fu9cUyj-eBiqYLIi1205Wq/view?usp=sharing). The important topics are listed bellow:
 - Vuforia register [00:15]()
 - Unity overview [01:27]()
 - Add Vuforia License Key [02:10]()
