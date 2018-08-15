@@ -719,7 +719,7 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 888608364}
-  m_Mesh: {fileID: 1972259461}
+  m_Mesh: {fileID: 2140304052}
 --- !u!23 &888608366
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1094,12 +1094,12 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1672692232}
   m_CullTransparentMesh: 0
---- !u!43 &1972259461
+--- !u!43 &2140304052
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: ImageTargetMesh14670
+  m_Name: ImageTargetMesh12060
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2

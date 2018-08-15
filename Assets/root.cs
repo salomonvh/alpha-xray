@@ -47,8 +47,8 @@ public class root : MonoBehaviour
     public string value;
   }
 
-  public string api_key = "";
-  public TextMesh canvas_text;
+  public string api_key = "sandbox_ZDBmYmU0NzEtYTdkMy00NDM3LTlmM2ItMmFhMTU0MDZkMTU3LllrRjduaG5RbWlPYnhNa0JnZERXam1EZkpjai1kQTEt";
+  public TextMesh text_mesh;
 
   private void Start()
   {
@@ -71,8 +71,10 @@ public class root : MonoBehaviour
     auth = "Basic " + auth;
 
     WWWForm form = new WWWForm();
-    form.AddField(parameters[0].key, parameters[0].value);
-    form.AddField(parameters[1].key, parameters[1].value);
+
+    foreach (var param in parameters) {
+      form.AddField(param.key, param.value);
+    }
 
     UnityWebRequest www = UnityWebRequest.Post(url, form);
     www.SetRequestHeader("AUTHORIZATION", auth);
@@ -89,6 +91,7 @@ public class root : MonoBehaviour
       String text = "Make: " + json.values[0].module.make + "\nPremium: R" + (json.values[0].base_premium / 100);
       Debug.Log("Form upload complete!");
       Debug.Log(text);
+      text_mesh.text = text;
     }
     yield return true;
   }
