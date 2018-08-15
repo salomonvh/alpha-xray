@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.UI;
 
 
 public class root : MonoBehaviour
@@ -43,6 +44,7 @@ public class root : MonoBehaviour
     }
 
     public string api_key = "";
+    public Text canvas_text;
 
     public void CallApi()
     {
@@ -79,8 +81,8 @@ public class root : MonoBehaviour
 
             String text = "Make: " + json.values[0].module.make + "\nPremium: R" + (json.values[0].base_premium / 100);
             Debug.Log(modelNr + ": " + json.values[0].module.make);
-            Debug.Log(text);
             Debug.Log("Form upload complete!");
+            canvas_text.text = text; 
         }
         yield return true;
     }
