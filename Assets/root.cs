@@ -47,7 +47,7 @@ public class root : MonoBehaviour
     public string value;
   }
 
-  public string api_key = "sandbox_ZDBmYmU0NzEtYTdkMy00NDM3LTlmM2ItMmFhMTU0MDZkMTU3LllrRjduaG5RbWlPYnhNa0JnZERXam1EZkpjai1kQTEt";
+  public string api_key = "";
   public TextMesh text_mesh;
 
   private void Start()
