@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: AY9fygz/////AAABmWdlgM85hkrYgg3G1dI+B50Nzx33xPc06yj+cf9zvl6a3jkWUna/lQ+FD+5Fcqu4wmlmDGXYdj1vMu/W+pTkAPD3IuI3rIFaXjOltiAX6vbR11yz/0G7sevhyJx6D19dwyk4gAe5Fib3xwjrhfi7cMxzPCxI5Dmu87Oijwlnyu27MKl1Xjj4qQZn8leXFmRNxNooLc8onz51WOTuDQBwlOQFfaHw6ilRQ/VEV7jZDeOy37Bg7nmO2osQF6rid+EF1dViGBXQKVPjU/LF9rTzpP2wtYRxpqcr38mtNEBpNQdtxPtI6SOHlQ7x/CK9xK3M3VAFLxSRfWxo06tkrX4bwDh9a6quVtLs5LUjhNIBSPH5
     ufoLicenseKey: QVNDcXdIci8vLy8vQUFBQUtCdlFCSW5KZGtQbmxSa2lOT3NVcndwSEhSUTMxY0h0VWZILzlNU25QQXByaUdhOGdaMXUzM3E3cFFZcUVBelRKK1d4VEp3cDdxVXBwZmJvQmtjOUVwNzJyM2h6UWgwaHJvOGc5NjZnNVpERVY4SXZoK2hpYjJnRWNuK2R4aE9XQVZJUFBSTGR0MDEzcnpCSnpMNjZHc3dxdGRwOUxsdUpidTBpRUJBbWJycmh4YUlISFhsd0tZNWlHckt6WjVKYXo3UG10MmsyT2RzWGp1eThEM1ltUXVZRXJnNEtZZEsxYTlWRXI1ZWZUWUVjLzlYZFRMZGw0SUhLcHlpSDZ0eTFvSnNFR0FPMm1MUXdKa0FJZmNINWxQMkQ2eGVBMGQ3SlBHcVdLczNhc3hNTlByUnkzQTdrOUpXamtMbjlxdC8wUlgzMWNZSzdiR1ZONUxsdDFQaDFsTzBzTXBJYngwQThEblVGc3RRU3A4VEE=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
@@ -21,6 +21,7 @@ MonoBehaviour:
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
+    version: 7.2.23
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
@@ -57,11 +58,12 @@ MonoBehaviour:
     modelCorrectionMode: 0
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
+    fusionMode: 7
   smartTerrain:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: "Microsoft\xAE LifeCam HD-3000"
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30
